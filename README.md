@@ -1,63 +1,95 @@
 # 📡 IoT Smart Attendance System
 
-An IoT-based smart attendance system that automates attendance tracking using ESP32 and wireless communication.
-
-## 🚀 Project Overview
-Traditional attendance systems are time-consuming and prone to errors. This project introduces an automated solution using IoT to improve accuracy, efficiency, and real-time monitoring.
-
-## 🧠 Features
-- Automated attendance tracking
-- Real-time data logging
-- Reduces manual errors
-- Prevents proxy attendance
-- Data storage for analysis
-
-## ⚙️ Technologies Used
-- ESP32 Microcontroller
-- Wi-Fi Communication
-- LCD Display
-- Embedded C / Arduino IDE
-- IoT Architecture
-
-## 🏗️ System Architecture
-The system consists of:
-- Input Layer (User authentication)
-- Processing Layer (ESP32)
-- Network Layer (Wi-Fi communication)
-- Application Layer (Data storage & monitoring)
-
-## 🔄 Working
-1. User interacts with the system (RFID / input)
-2. ESP32 processes the data
-3. Attendance is recorded with timestamp
-4. Data is sent to storage (CSV / cloud)
-5. Output is displayed on LCD / system
-
-## 📊 Results
-- Achieved accurate attendance tracking
-- Reduced manual effort
-- Real-time monitoring capability
-
-## 🧪 Testing
-- Accuracy: ~98%
-- Response Time: ~2 seconds per user
-- Reliable continuous operation
-
-## 🏆 Achievement
-Presented at IEEE exhibition and received recognition.
-
-## 👨‍💻 My Contribution
-- Worked on system design and implementation
-- Contributed to hardware-software integration
-- Assisted in testing and validation
-- Participated in project presentation
-
-## 📂 Project Report
-Full documentation available in the `report/` folder.
-
-## 📸 Project Images
-See `images/` folder for setup, circuit, and output.
+An IoT-based Smart Attendance System that automates attendance tracking using ESP32, Wi-Fi communication, and real-time data logging.
 
 ---
 
-⭐ If you like this project, feel free to star the repo!
+## 🚀 Project Overview
+
+Traditional attendance systems are manual, time-consuming, and prone to errors such as proxy attendance.  
+This project provides an automated solution using IoT to improve accuracy, efficiency, and real-time monitoring.
+
+The system records attendance digitally and stores it in a structured format for easy access and analysis.
+
+---
+
+## 🎯 Objectives
+
+- Automate attendance tracking
+- Reduce human errors
+- Prevent proxy attendance
+- Enable real-time monitoring
+- Store and manage attendance data efficiently
+
+---
+
+## ⚙️ Technologies Used
+
+- ESP32 Microcontroller  
+- Wi-Fi Communication  
+- LCD Display  
+- Arduino IDE (Embedded C/C++)  
+- SPIFFS (File Storage)  
+- Web Server (HTTP)
+
+---
+
+## 🏗️ System Architecture
+
+The system is divided into multiple layers:
+
+- **Input Layer** → User identification (USN / RFID / input)
+- **Processing Layer** → ESP32 processes data
+- **Network Layer** → Wi-Fi sends data
+- **Application Layer** → Stores attendance and displays output
+
+---
+
+## 🔄 Working Principle
+
+1. User sends attendance request (USN input)
+2. ESP32 processes and verifies the user
+3. Current timestamp is generated
+4. Attendance is recorded in CSV format
+5. Data is stored in SPIFFS
+6. LCD displays confirmation
+7. Admin can download attendance logs
+
+---
+
+## 📊 Features
+
+- Real-time attendance tracking  
+- Login / Logout system  
+- CSV-based data storage  
+- LCD display output  
+- Web-based access  
+- Easy data retrieval  
+
+---
+
+## 🧪 Results
+
+- Accuracy: ~98%  
+- Response Time: ~2 seconds per user  
+- Reliable operation with real-time updates  
+
+---
+
+## 🏆 Achievement
+
+- Presented at IEEE Exhibition  
+- Received recognition for project implementation  
+
+---
+
+## 👨‍💻 My Contribution
+
+- Contributed to system design and implementation  
+- Worked on hardware-software integration  
+- Assisted in testing and validation  
+- Participated in project presentation  
+
+---
+
+## 📂 Project Structure
